@@ -4,7 +4,7 @@ import Link from "next/link";
 function Header() {
   return (
     <>
-      <header className="md:px-6 flex justify-between w-full py-2 px-1 mx-auto ">
+      <header className="md:px-6 flex justify-between w-full py-2 px-1 mx-auto  max-w-7xl ">
         <div className="flex flex-row gap-4 items-center">
           <Link href="/">
             <Image

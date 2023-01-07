@@ -7,7 +7,13 @@ export default defineType({
   fields: [
     defineField({
       name: 'title',
-      title: 'Title',
+      title: 'Название статьи',
+      description: 'Очень кратко',
+      type: 'string',
+    }),
+    defineField({
+      name: 'description',
+      title: 'Описание',
       type: 'string',
     }),
     defineField({

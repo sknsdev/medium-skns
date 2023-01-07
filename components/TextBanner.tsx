@@ -4,7 +4,7 @@ import React from "react";
 function TextBanner() {
   return (
     <>
-      <section className="flex flex-row justify-around min-h-[325px] bg-blue-600 text-white py-2 px-3 md:max-w-9xl w-full mx-auto mt-4 items-center overflow-hidden border-y">
+      <section className="flex flex-row justify-around min-h-[325px] max-w-7xl bg-blue-600 text-white py-2 px-3 md:max-w-9xl w-full mx-auto mt-4 items-center overflow-hidden border-y">
         <div className="flex flex-row md:max-w-[50%]">
           <div className="flex justify-center flex-col gap-4">
             <h1 className="text-4xl max-w-xl font-serif">
